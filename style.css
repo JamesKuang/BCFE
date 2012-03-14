@@ -1,0 +1,37 @@
+*{padding:0;margin:0;}
+body{background-color: #efefef; font-family:Arial,Helvetica,sans-serif;color:#999;}
+.container{width:954px;margin:0 auto;}
+
+#header{height:120px;}
+#content{overflow:hidden;background:url('../img/brickpat.png');}
+#footer{height:20px;color:white;padding:3px;text-align:center;font-size:18px;background:rgb(0,0,0);background:rgba(0,0,0,0.8);float:left;width:100%;}
+#nav{padding: 0 12px;text-align:center;list-style-type:none;overflow:hidden;background:url('img/navbg.png');}
+#nav li{height:50px;width:80px;float:left;padding:14px 0 0;}
+#nav li:hover{height: 35px; background:url('img/navhov.gif');}
+#nav li a{text-decoration:none;color:#fff;}
+#logo{float:left;}
+
+#login{background:#fff;width:150px;height:50px;position:relative;z-index:5;float:right;margin-right:20px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+.login-input{float:left;margin:4px 3px;}
+.login-input input{width:65px;font-size:10px}
+.login-submit input{width:138px;margin-left:6px;background:#000;color:#fff;}
+.row{overflow:hidden;width:990px;}
+.main-article,.article,.node,.server-status{background:rgb(0,0,0);background:rgba(0,0,0,0.8);margin:15px;height:200px;padding:10px;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;}
+.mainnode{background:rgb(0,0,0);background:rgba(0,0,0,0.8);margin:15px;min-height:660px;padding:10px;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;}
+.main-article h2,.article h2,.node h2,.server-status h2,.mainnode h2{color:#fff;font-size:20px}
+.main-article p,.article p,.node p,.server-status p{color:#999;font-size:14px}
+.main-article,.mainnode{width:660px;}
+.article{width:445px;}
+.node{width:280px;}
+.node li,.server-status li{list-style-type:none;color:#fff}
+.server-status{width:230px;}
+.leftcolumn{float:left;}
+.rightcolumn{float:right;}
+#wrap{width:1038px;background:url('../img/border.png');margin:0 auto;}
+.topborder{height:11px;width:100%;background:#000 url('../img/topborder.png')}
+.navborder{height:10px;width:100%;background:transparent url('../img/navborder.png')}
+p {font-size:14px padding: 5px;}
+a {color: #FFF}
+h3, h4 {color: #FFF}
+.navtopborder{height:1px;width:100%;background:transparent url('../img/navtopborder.png')}
+
