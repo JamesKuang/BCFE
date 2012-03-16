@@ -10,6 +10,7 @@ body{background-color: #efefef; font-family:Arial,Helvetica,sans-serif;color:#46
 #nav li:hover{height: 35px; ; background:url('img/navhov.gif');}
 #nav li a{text-decoration:none;color:#fff; padding:20px;}
 #logo{float:left;}
+#nav #cartlink {background: url("img/cart.png") no-repeat scroll 17px 20px transparent; padding-left:45px;}
 
 .boxhead{ background: url('img/boxheader.gif'); height: 42px;}
 .boxhead h1 {padding: 10px;font-size: 20px; font-weight:bold;}
